@@ -1,7 +1,7 @@
 // vars/commonBuild.groovy
 def call() {
     stage('Checkout') {
-        checkout scm
+        echo "skip checkout scm"
     }
 
     stage('Unit Tests') {
